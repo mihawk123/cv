@@ -6,17 +6,17 @@ const math = require('math-expression-evaluator');   //WESO#0001
 const figlet = require('figlet');   //WESO#0001
 const fs = require('fs');  //WESO#0001
 const ms = require('ms');  //WESO#0001
-const prefix = '^'
+const prefix = '-'
 
 client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'باك') {  //WESO#0001
-      msg.reply('** :wink: وِلِـكُمِـ ﻧَوِرُتْ   :sparkling_heart:**');  //WESO#0001
+    if (msg.content === 'mihawk') {  //WESO#0001
+      msg.reply('** :wink: تاج راسك   :sparkling_heart:**');  //WESO#0001
     }
   });
 
 client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'ويسو') {  //WESO#0001
-      msg.reply('**ويسو مات**');  //WESO#0001
+    if (msg.content === 'السلام عليكم') {  //WESO#0001
+      msg.reply('**وعليكم السلام**');  //WESO#0001
     }
   });
 
@@ -29,8 +29,8 @@ client.on('message', msg => {  //WESO#0001
   
 
   client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'احبك') {  //WESO#0001
-      msg.reply('**حبك برص يا سافل**');  //WESO#0001
+    if (msg.content === 'koka') {  //WESO#0001
+      msg.reply('**بطل من ابطال ببجي**');  //WESO#0001
     }
   });
 
@@ -868,7 +868,7 @@ client.on('message', PuP => {
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' 1help',`Im on ${client.guilds.size} servers`,`i help ${client.users.size} Members`,' Mihawk ','ZR1'];
+    var setGame = [' Mihawk ','ZR1'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -1273,12 +1273,12 @@ client.on('message', message => {
   })
 
 client.on('message', message => {
-    if (message.content.startsWith("-link")) {
+    if (message.content.startsWith("-رابط")) {
 
   message.channel.createInvite({
         thing: true,
-        maxUses: 100,
-        maxAge: 86400
+        maxUses: 1,
+        maxAge: never
     }).then(invite =>
       message.author.sendMessage(invite.url)
     )
@@ -3655,14 +3655,14 @@ reaction1.on("collect", r => {
       :busts_in_silhouette:***__اوامر عامة__***:loudspeaker: 
 **
 『-ping ====> لمعرفة سرعة اتصال البوت
-『-link ====> يسويلك رابط لمدة يوم وعدد الاستخدامات 100
+『-رابط ====> يسويلك رابط لمدة يوم وعدد الاستخدامات 1
 『-tag ====> لعرض الكلام بشكل جميل و كبير
 『-تقديم
 『-quran ====> لعرض 200 صفحة من القرآن الكريم
 『-perms ====> لعرض صلاحياتك
 『-topinv ====> لعرض صاحب اكثر دعوات 
 『-hypixel ====> لرؤية احصائياتك في هايبكسل
-『-contact ====> للتواصل مع صاحب البوت
+『-0000000000 ====> 00000000000000000000000000
 『-clan ====> لعبة الكلانات
 『-report ====> للابلاغ عن احد
 『-Minv ====> لمعرفة عدد دعواتك
@@ -3680,8 +3680,8 @@ reaction1.on("collect", r => {
 『-embed ====> يكرر الي تقولو بشكل حلو
 『-rules ====> يعرض لك قوانين السيرفر
 『-v2min ====> لصنع روم صوتي مؤقت
-『-inv ====> لدعوة البوت الى سيرفرك
-『 By ====> @430456886370762763
+『-zr1 ====> ZR1
+『 By ====> ZR1 MIHAWK
 **
 `)
    message.author.sendEmbed(embed)
@@ -3739,7 +3739,7 @@ reaction2.on("collect", r => {
 『-unmutechannel ====> فتح الشات
 『-ct <name> ====> انشاء شات
 『-cv <name> ====> انشاء رووم فويس
-『 By ====> @430456886370762763
+『 By ====> ZR1 MIHAWK
 **
 `)
    message.author.sendEmbed(embed)
@@ -3777,7 +3777,7 @@ reaction3.on("collect", r => {
 『-لعبة مريم ====> مريم
 『-عواصم
 『-يعطيك عقابات قاسية ====> عقاب
-『 By ====> @430456886370762763
+『 By ====> ZR1 MIHAWK
 `)
    message.author.sendEmbed(embed)
    message.reply('تم ارسالك بلخاص')
