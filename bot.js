@@ -1273,7 +1273,7 @@ client.on('message', message => {
   })
 
 client.on('message', message => {
-    if (message.content.startsWith("-رابط")) {
+    if (message.content.startsWith("رابط")) {
 
   message.channel.createInvite({
         thing: true,
@@ -1282,10 +1282,10 @@ client.on('message', message => {
     }).then(invite =>
       message.author.sendMessage(invite.url)
     )
-  message.channel.send("**:link:.تم ارسال الرابط برسالة خاصة**")
+  message.channel.send("**:رابط:.تم ارسال الرابط برسالة خاصة**")
 
-message.author.send(`**مدة الرابط : يـوم
-عدد استخدامات الرابط : 100**`)
+message.author.send(`**مدة الرابط : &
+عدد استخدامات الرابط : 1**`)
 
 
     }
