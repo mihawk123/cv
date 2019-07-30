@@ -15,15 +15,15 @@ client.on('message', msg => {  //WESO#0001
   });
 
 client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'السلام عليكم') {  //WESO#0001
-      msg.reply('**وعليكم السلام**');  //WESO#0001
+    if (msg.content === 'IamBERRI') {  //WESO#0001
+      msg.reply('**  تاج راسك بري تورنادو بالنعال**');  //WESO#0001
     }
   });
 
 
 client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'احبك') {  //WESO#0001
-      msg.reply('**لاتحتك يا اخوي لو سمحت**');  //WESO#0001
+    if (msg.content === 'IamBERRI') {  //WESO#0001
+      msg.reply('** :joy: لتاج راسك بري تورنادو بالنعال :joy: **');  //WESO#0001
     }
   });
   
